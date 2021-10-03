@@ -1,6 +1,6 @@
 Export [acoup.blog](https://acoup.blog) blog posts to EPUB using [percollate](https://www.npmjs.org/package/percollate).
 
-All credits goes to the blog author **Bret Devereaux**, I just made this tool so that I can read him on my e-book.
+All credits goes to the blog author [Bret Devereaux](https://twitter.com/BretDevereaux), I just made this tool so that I can read him on my e-book.
 
 
 ## Table of Contents
