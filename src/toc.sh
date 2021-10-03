@@ -19,9 +19,9 @@ do
 
     title=$(basename "$f")
     link=$(head -n1 "$f" | sed -r 's|\s|%20|g')
-    linked_title="[$title](link)"
+    linked_title="[$title]($link)"
     encoded_title=$(echo "$title" | sed -r 's|\s|%20|g')
-    download="[EPUB](dist/epub/$encoded_title.epub)"# / [PDF](dist/pdf/$encoded_title.pdf)"
+    download="[EPUB](./dist/epub/$encoded_title.epub)" # / [PDF](dist/pdf/$encoded_title.pdf)"
     out="$out
 |$lastdate|$firstdate|$size|$linked_title|$download|"
 done
