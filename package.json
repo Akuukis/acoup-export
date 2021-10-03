@@ -1,0 +1,23 @@
+{
+	"name": "acoup-export",
+	"version": "0.0.1",
+	"description": "Export acoup.blog to EPUB using percollate",
+	"main": "run.sh",
+	"repository": "Akuukis/acoup-export",
+	"author": "Akuukis",
+	"license": "GPL-3.0",
+	"engines": {
+		"node": "^12.20.0"
+	},
+	"dependencies": {
+		"percollate": "^2.0.0"
+	},
+	"scripts": {
+        "posts": "./src/posts.sh",
+        "verify": "./src/verify.sh",
+        "export": "yarn run export:epub && yarn run export:pdf",
+        "export:epub": "./src/export.sh epub",
+        "export:pdf": "./src/export.sh pdf",
+        "toc": "./src/toc.sh"
+	}
+}
