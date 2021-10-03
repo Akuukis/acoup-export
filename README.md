@@ -34,6 +34,7 @@ All credits goes to the blog author [Bret Devereaux](https://twitter.com/BretDev
 |2019-07-19|2019-07-12|2|[Collections: The Lonely City](https://acoup.blog/2019/07/12/collections-the-lonely-city-part-i-the-ideal-city/)|[EPUB](./dist/epub/Collections:%20The%20Lonely%20City.epub)|
 |2019-05-03|2019-05-03|1|[Collections: Armor in Order](https://acoup.blog/2019/05/03/collections-armor-in-order-part-i/)|[EPUB](./dist/epub/Collections:%20Armor%20in%20Order.epub)|
 
+
 ## How to update
 
 1. `yarn run posts`
@@ -43,3 +44,10 @@ All credits goes to the blog author [Bret Devereaux](https://twitter.com/BretDev
 5. commit & push to master (or create a PR)
 
 P.S. For PDF export use `yarn run export:pdf` locally. I'm not committing them because all PDFs are huge - almost 2GB.
+
+
+## Disclaimer
+
+No guarantees that exported series are readable nor even opens on your device.
+The exports are as good as [percollate](https://www.npmjs.org/package/percollate) can make them.
+Aside from that, I've already read most of files and with some exceptions (some crashed after few pages on my PocketBook) the exports works great.
