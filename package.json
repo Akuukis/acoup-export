@@ -7,10 +7,10 @@
 	"author": "Akuukis",
 	"license": "GPL-3.0",
 	"engines": {
-		"node": "^12.20.0"
+		"node": "^16"
 	},
 	"dependencies": {
-		"percollate": "^2.0.0"
+		"percollate": "^4.0.0"
 	},
 	"scripts": {
         "posts": "./src/posts.sh",
