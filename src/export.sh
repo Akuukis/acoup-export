@@ -9,5 +9,5 @@ mkdir -p "$PARENT_PATH/../dist/$FORMAT"
 for f in $PARENT_PATH/series/*
 do
     title=$(basename "$f")
-    cat "$f" | xargs node ~/git/percollate/cli.js $FORMAT --author="$AUTHOR" --title="$title" --output="$PARENT_PATH/../dist/$FORMAT/$title".$FORMAT
+    cat "$f" | xargs node node_modules/percollate/cli.js $FORMAT --author="$AUTHOR" --title="$title" --output="$PARENT_PATH/../dist/$FORMAT/$title".$FORMAT
 done
